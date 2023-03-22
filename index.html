@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer - Mauro Dalla Zuanna</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootstrap.css" media="print">
+
+    <link rel="stylesheet" type="text/css" href="cv_screen.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="cv_screen.css" media="print">
+</head>
+
+<body>
+    <div id="printContent" class="container-fluid">
+        <div class="row page">
+            <div class="col-md-4 left-column custom-left-margin">
+                <div class="panel-info">
+                    <div class="row">
+                        <div class="col-4">
+                            <div>
+                                <img id="photo" src="2023-03-cv-images/2013-11-28 21.40.53-9.jpg"
+                                    alt="Mauro Dalla Zuanna" class="profile-image">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <p class="personal-info">
+                                Cod.Fis.: DLLMRA79E17A7L3A
+                                <br />
+                                maurodallazuanna@hotmail.com
+                                <br />
+                                <a href="https://github.com/zu1779">https://github.com/zu1779</a>
+                                <br />
+                                +39 349 6107344
+                                <span class="iconify" data-icon="logos:whatsapp"></span>
+                                <span class="iconify" data-icon="logos:telegram"></span>
+                                <br />
+                                Romano d'Ezzelino (VI)
+                            </p>
+                        </div>
+                    </div>
+                    <h1 class="main-title">Mauro Dalla Zuanna</h1>
+                    <h2 class="main-title">Software Developer</h2>
+                </div>
+                <div class="panel-info">
+                    <h3>Info su di me</h3>
+                    <hr />
+                    <div>
+                        Sono un programmatore appassionato di tecnologia
+                    </div>
+                </div>
+                <div class="panel-info">
+                    <h3>R&amp;D</h3>
+                    <hr />
+                    <div>Inserire qui gli studi fatti mentre non impegnato in lavori.</div>
+                    <div>
+                        <span class="badge secondary-color m-1">C++</span>
+                        <span class="badge secondary-color m-1">python</span>
+                    </div>
+                </div>
+                <div class="panel-info">
+                    <h3>Formazione</h3>
+                    <hr />
+                    <ul>
+                        <li>Perito informatico</li>
+                        <li>Conoscenza inglese</li>
+                        <li>Eucip - Core</li>
+                        <li>ECDL - Base</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 right-column">
+                <div class="d-flex flex-column min-vh-100 main-content">
+                    <div class="your-full-height-div flex-grow-1">
+                        <div class="column-content">
+                            <div>
+                                <h3>Dettaglio esperienze</h3>
+                                <div class="work-description">
+                                    <span>
+                                        I tag "Conoscenze acquisite" compaiono solo alla loro acquisizione od eventuale
+                                        approfondimento.
+                                        <br />
+                                        Alcune di queste conoscenze sono state acquisite con il supporto di consulenti
+                                        esterni (principalmente quelli da sistemista), il resto tramite libri, ricerche online, video
+                                        corsi e stackoverflow.
+                                    </span>
+                                </div>
+                                <hr />
+
+                                <div id="work-experience-content"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+
+            // Carica il file XML utilizzando XMLHttpRequest
+            const xmlRequest = new XMLHttpRequest();
+            xmlRequest.open("GET", "cv.xml", false);
+            xmlRequest.send(null);
+
+            // Ottieni il documento XML
+            const xmlDoc = xmlRequest.responseXML;
+
+            // Carica il file XSL utilizzando XMLHttpRequest
+            const xslRequest = new XMLHttpRequest();
+            xslRequest.open("GET", "cv.xsl", false);
+            xslRequest.send(null);
+
+            // Ottieni il documento XSL
+            const xslDoc = xslRequest.responseXML;
+
+            // Crea l'oggetto XSLTProcessor
+            const xsltProcessor = new XSLTProcessor();
+
+            // Importa il file XSL nell'oggetto XSLTProcessor
+            xsltProcessor.importStylesheet(xslDoc);
+
+            // Applica la trasformazione XSLT al documento XML
+            const resultDoc = xsltProcessor.transformToDocument(xmlDoc);
+
+            // Ottieni l'output HTML della trasformazione
+            const resultHtml = new XMLSerializer().serializeToString(resultDoc);
+
+            const divWorkExperience = document.getElementById("work-experience-content");
+            // Inserisci l'output HTML nella pagina HTML
+            divWorkExperience.innerHTML = resultHtml;
+        </script>
+    </div>
+</body>
+
+</html>
