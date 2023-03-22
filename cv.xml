@@ -247,10 +247,11 @@
         <period>Giugno 2017 - Settembre 2017</period>
         <description><![CDATA[
             <span>
-                Nell'esperienza in questa software house, che si occupava di 
-                Mi sono occupato dell’implementazione di un MES (manufacturing
-                execution system) distribuito via web e sviluppato tramite un
-                framework proprietario basato su jsview.
+                Durante la mia esperienza presso questa software house, ho avuto l'opportunità di partecipare allo sviluppo di un sistema MES (Manufacturing Execution System) interamente ideato dall'azienda. 
+            </span>
+            <br />
+            <span class="indented">
+                Tale applicativo web è stato realizzato attraverso un framework proprietario basato su jsview ed è stato implementato all'interno di un più ampio progetto sviluppato in collaborazione con altre aziende operanti nel campo della manifattura di quarta generazione.
             </span>
         ]]></description>
         <skills>
@@ -266,11 +267,11 @@
         <period>Settembre 2017 - Aprile 2019</period>
         <description><![CDATA[
             <span>
-                Mi sono occupato della manutenzione e dello sviluppo delle nuove
-                funzionalità relative agli applicativi interni utilizzati dall’azienda
-                (l’azienda gestisce la dieta alimentare dei clienti). Tali applicazioni
-                consistevano in un servizio per le app dei clienti, due siti di backoffice e
-                alcuni servizi in background sui server.
+                Durante questa esperienza lavorativa, sono state svolte attività di manutenzione e sviluppo di nuove funzionalità per gli applicativi interni utilizzati dall'azienda. L'azienda promuoveva un programma di diete alimentari personalizzate per i clienti, dove i dietologi impostavano i parametri di configurazione del piano alimentare. Il piano alimentare veniva generato dinamicamente in base alle regole imposte dai dietologi e alla raccolta giornaliera dei dati biometrici dei clienti, tra cui solo il peso e alcuni parametri venivano raccolti a livello giornaliero, mentre altri, come ad esempio l'altezza, venivano aggiornati con frequenza inferiore. Inoltre, era richiesto ai clienti di fornire informazioni sul loro stato di salute e eventuali assunzioni di farmaci.
+            </span>
+            <br />
+            <span class="indented">
+                I dati venivano raccolti attraverso diverse modalità, come ad esempio tramite un'app mobile sviluppata esternamente, il sito web dell'azienda e un centralino telefonico. Le attività di sviluppo e manutenzione degli applicativi erano svolte all'interno di un team dedicato, che aveva il compito di implementare e mantenere i servizi pubblicati su AWS EC2. Tra questi servizi, figuravano due siti intranet aziendali (uno dedicato ai dietologi e uno alle operatrici del centralino), un sito web pubblico per l'utilizzo da parte dei clienti e un servizio web utilizzato dagli sviluppatori delle app mobile.
             </span>
         ]]></description>
         <skills>

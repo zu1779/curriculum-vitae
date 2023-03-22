@@ -118,7 +118,7 @@ html {
       .work-description-header {
         span {
           font-weight: lighter;
-          font-size: smaller;
+          font-size: 0.6rem;
           color: #606060;
         }
       }
@@ -148,6 +148,11 @@ html {
         .badge {
           background-color: $secondary;
         }
+      }
+
+      span.autorizzazioni {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7em;
       }
     }
   }

@@ -9880,7 +9880,7 @@ html body .right-column .card .card-header {
 }
 html body .right-column .work-description-header span {
   font-weight: lighter;
-  font-size: smaller;
+  font-size: 0.6rem;
   color: #606060;
 }
 html body .right-column #work-experience-content .work-reference {
@@ -9901,4 +9901,8 @@ html body .right-column #work-experience-content .work-description span.indented
 }
 html body .right-column #work-experience-content .badge {
   background-color: #c6a2ff;
+}
+html body .right-column span.autorizzazioni {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7em;
 }/*# sourceMappingURL=cv_screen.css.map */
