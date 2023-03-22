@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv.xslt"?>
+<cv>
+    <!-- La seguente esperienza lavorativa serve per test grafici e come template per aggiungerne -->
+    <!--
+         <work-experience>
+         <title>Titolo posizione lavorativa</title>
+         <company>Nome azienda</company>
+         <contract>Tipo contratto</contract>
+         <place>Cittá dell'azienda</place>
+         <period>Da data - a data</period>
+         <description><![CDATA[
+         <span>
+         Descrizione della posizione lavorativa.
+         </span>
+         <br />
+         <span class="indented">
+         Righe successive con text-indent
+         </span>
+         <br />
+         <span class="indented">
+         Righe successive con text-indent
+         </span>
+         ]]></description>
+         <skills>
+         <tag>Conoscenza 001</tag>
+         <tag>Conoscenza 002</tag>
+         <tag>Conoscenza 003</tag>
+         <tag>Conoscenza 004</tag>
+         <tag>Conoscenza 005</tag>
+         </skills>    
+         </work-experience>
+    -->
+    <work-experience>
+        <title>Sviluppatore web</title>
+        <company>Studio 58 Tools &amp; Web</company>
+        <contract>Collaboratore esterno</contract>
+        <place>Valstagna</place>
+        <period>Marzo 2000 - Giugno 2001</period>
+        <description><![CDATA[
+            <span>
+                Questa posizione lavorativa richiedeva lo sviluppo e la manutenzione di
+                siti web statici e dinamici, nonché la creazione di programmi per
+                gestire le operazioni amministrative sugli stessi. 
+                È stata anche richiesta la creazione di alcune utility di conversione dati in c++, 
+                e la gestione di configurazioni di rete e sistemi operativi usati all'interno dell'azienda.
+            </span>
+            <br />
+            <span class="indented">
+                Per esempio erano stati creati dei siti web dinamici (con ASP) per permettere a delle agenzie immobiliari 
+                di pubblicare su internet i loro immobili in vendita o in affitto. 
+                Oltre al sito veniva fornito anche un'applicazione desktop (Visual Basic 6) 
+                per permettere alle agenzie di gestire gli immobili pubblicati.
+            </span>
+            <br />
+        ]]></description>
+        <skills>
+            <tag>Asp</tag>
+            <tag>C++</tag>
+            <tag>Html</tag>
+            <tag>IIS</tag>
+            <tag>Macromedia flash</tag>
+            <tag>MS Access</tag>
+            <tag>Visual basic 6</tag>
+            <tag>Windows NT</tag>
+        </skills>    
+    </work-experience>
+    <work-experience>
+        <title>Sviluppatore applicazioni verticali interni all'azienda</title>
+        <company>World Service SpA</company>
+        <contract>Indeterminato</contract>
+        <place>Cassola</place>
+        <period>Settembre 2001 - Settembre 2003</period>
+        <description><![CDATA[
+            <span>
+                Questa esperienza lavorativa è avvenuta come dipendente della società di
+                servizi del gruppo Nico (distribuzione abbigliamento/calzature).
+            </span>
+            <br />
+            <span class="indented">
+                Il ruolo prevedeva l'assistenza e la manutenzione del gestionale aziendale (fornito da un'azienda esterna) e la creazione di programmi verticali di supporto al gestionale e indipendenti.
+            </span>
+            <br />
+            <span class="indented">
+                Esempi sono la creazione di report specifici (ed eventuali programmi per la visualizzazione degli stessi), programmi per la replica dei dati relativi alle fidelity card (punti ottenuti, punti spesi, ...) e programmi per il consolidamento dei dati dei vari negozi sparsi per il mondo in sede centrale.
+            </span>
+        ]]></description>
+        <skills>
+            <tag>MS Access</tag>
+            <tag>Ms Sql Server 2000</tag>
+            <tag>Replica dati</tag>
+            <tag>Reportistica</tag>
+            <tag>Visual basic 6</tag>
+        </skills>
+    </work-experience>
+    <work-experience>
+        <title>Sviluppatore verticali interni all'azienda / Sistemista</title>
+        <company>Tecnigold Group SpA</company>
+        <contract>Indeterminato</contract>
+        <place>Borso del grappa</place>
+        <period>Settembre 2003 - Aprile 2008</period>
+        <description><![CDATA[
+            <span>
+                In questa esperienza lavorativa, ho ricoperto il ruolo di sistemista e programmatore nell'ufficio EDP di un'azienda manifatturiera specializzata nella lavorazione dell'oro per la creazione di catene e altri prodotti simili. Nel corso del tempo, le mie responsabilità sono cambiate: inizialmente mi sono concentrato principalmente sullo sviluppo del software, ma successivamente ho svolto maggiormente compiti legati al sistema informatico a causa di eventi interni all'ufficio.
+            </span>
+            <br />
+            <span class="indented">
+                La parte di programmatore prevedeva la manutenzione dei gestionali aziendali (Erp di Soluzioni Software srl, Cyberplan di Cybertec e un m.e.s. customizzato di Esa Software), la gestione dei programmi per l'integrazione tra questi 3 gestionali e la creazione di applicazioni verticali utilizzati internamente all'azienda. Di questi ultimi 2 esempi sono l'analisi per la gestione gerarchica dei cicli di lavorazione e aluni test iniziali di visione artificiale per le macchine di lavorazione.
+            </span>
+            <br />
+            <span class="indented">
+                La parte di sistemista prevedeva la gestione e la manutenzione (in collaborazione con alcuni consulenti esterni) del parco macchine e software interno all'azienda. Comprendeva la gestione della rete e dei servizi base per il suo funzionamento (router, switch, sicurezza, email, efax, network folders, active directory, ...).
+            </span>
+        ]]></description>
+        <skills>
+            <tag>Active Directory</tag>
+            <tag>BrightStor</tag>
+            <tag>C#</tag>
+            <tag>Citrix Metaframe</tag>
+            <tag>IIS</tag>
+            <tag>Informix</tag>
+            <tag>VB.Net</tag>
+            <tag>MDaemon</tag>
+            <tag>Ms Sql Server 2000</tag>
+            <tag>Trend Micro IMSS</tag>
+            <tag>Trend Micro Office Scan</tag>
+            <tag>VMWare</tag>
+            <tag>Windows 2000 Server</tag>
+            <tag>Windows 2003 Server</tag>
+            <tag>Windows Xp</tag>
+            <tag>Zetafax</tag>
+        </skills>    
+    </work-experience>
+    <work-experience>
+        <title>Sviluppatore software</title>
+        <company>2C Solution, Arco srl</company>
+        <contract>Determinato, a progetto</contract>
+        <place>Gazzo Padovano</place>
+        <period>Settembre 2011 - Marzo 2014</period>
+        <description><![CDATA[
+            <span>
+                Questa esperienza lavorativa riguarda 2 aziende eterogenee: 
+                2C Solution (software house) e Arco srl (azienda di verniciatura conto terzi).
+                Sono state fatte rientrare in un unico periodo perchè durante il periodo lavorativo di riferimento,
+                erano tra loro legate sia a livello geografico (stesso complesso di edifici) che a livello di quote societarie.
+            </span>
+            <br />
+            <span class="indented">
+                La prima parte dell'esperienza lavorativo riguarda l'azienda Arco srl,
+                e consisteva nell'implementare delle nuove funzionalità di un custom MES (Manufacturing Execution System) utilizzato all'interno dell'azienda. 
+                In questo progetto vi è stata la possibilità di riprogettare il software il quale era composto da 2 tipi di client utilizzati dal personale d'ufficio e dai lavoratori in linea, e da un servizio da supporto al client a bordo linea.
+                Nella riprogettazione di tali software è stato possibile applicare nuove architetture software, tra cui la suddifizione in layers (presentation, bussiness e data), la dependency injection e l'automated testing (unit e integration); oltre a librerie di accesso ai dati orm (Object-Relational Mapping) e librerie di controlli (Telerik).
+            </span>
+            <br />
+            <span class="indented">
+                La seconda parte dell'esperienza lavorativa riguarda l'azienda 2C Solution, 
+                azienda di sviluppo software impegnata nello sviluppo di applicativi riguardanti la gestione documentale.
+                In quest'ambito sono state sviluppate le competenze riguardanti asp.net web forms e i servizi WCF, 
+                oltre ad approfondire tecnologie giá usate nella prima parte di questa esperienza (tra cui orm e telerik).
+                Sono stati esplorati anche servizi di indicizzazione dei testi (solr e il sottostante lucene) e il passaggio da web forms ajax alle SpA (single page applications) per creare delle chat integrate con il prodotto software principale.
+            </span>
+            <br />
+            <span class="indented">
+                La terza parte dell'esperienza lavorativa riguarda nuovamente l'azienda Arco srl.
+                Questa necessitá è sopravvenuta a causa dell'erp principale utilizzato dall'azinda stessa (passaggio a Dynamics Nav).
+                In ogni caso, non si è limitato alla sistemazione del programma per adattarlo al cambiamento di struttura della base di dati, bensì si è operata una ottimizzazione dei componenti fondamentali del programma, quali la comunicazione diretta con la base dati dell'ERP (mediante le viste di SQL Server) e la realizzazione di app per dispositivi mobili (smartphone o tablet) per accedere ai dati del MES, attraverso una valutazione attenta e mirata della situazione.
+            </span>
+        ]]></description>
+        <skills>
+            <tag>Asp.Net</tag>
+            <tag>Dependency Injection</tag>
+            <tag>Full-text search</tag>
+            <tag>Integration testing</tag>
+            <tag>Javascript</tag>
+            <tag>jQuery</tag>
+            <tag>KendoUI</tag>
+            <tag>KnockoutJs</tag>
+            <tag>MVVM</tag>
+            <tag>NHibernate</tag>
+            <tag>NUnit</tag>
+            <tag>PhoneGap</tag>
+            <tag>Solr</tag>
+            <tag>SPA</tag>
+            <tag>Spring.net</tag>
+            <tag>Svn</tag>
+            <tag>Telerik</tag>
+            <tag>Unit testing</tag>
+            <tag>Wcf</tag>
+            <tag>Wpf</tag>
+        </skills>    
+    </work-experience>
+    <work-experience>
+        <title>Sviluppatore</title>
+        <company>N/A</company>
+        <contract>Libero professionista</contract>
+        <place>N/A</place>
+        <period>Marzo 2014 - Novembre 2016</period>
+        <description><![CDATA[
+            <span>
+                In questa esperienza professionale, è stata intrapresa un'attività di libera professione per ampliare la competenza professionale, confrontandosi con problematiche informatiche di varia natura.
+                Questa esperienza ha riguardato 4 realtá aziendali.
+            </span>
+            <br />
+            <span class="indented">
+                Sono stati eseguiti lavori per entrambe le aziende dell'ultima esperienza lavorativa.
+                Presso Arco Srl, sono state implementate nuove funzionalità per il MES, tra cui viste di reportistica e gestione delle materie prime (vernici).
+                Nel contesto della collaborazione con 2C Solution, è stato svolto un ruolo full-stack per lo sviluppo del servizio di fatturazione elettronica destinato alla pubblica amministrazione, occupandosi in particolare della parte di fatturazione passiva e di un servizio dedicato ai rivenditori di 2C Solution, che permettesse loro di registrare autonomamente i propri clienti.
+            </span>
+            <br />
+            <span class="indented">
+                Per un ufficio operante nel settore della telefonia è stato creato una soluzione custom per la gestione di installazioni di antenne wi-max. Questo software metteva a disposizione dell'utente un'interfaccia web per la gestione della ricezione e l'installazione di antenne wi-max per un noto operatore del settore, permettendo di registrare gli esiti delle installazioni e visionare con brevi report lo stato dei lavori.
+            </span>
+            <br />
+            <span class="indented">
+                Per un'azienda di produzione di molle mi sono occupato di analizzare lo stato della situazione informatica e su possibili migliorie (vedere esperienza lavorativa successiva).
+            </span>
+        ]]></description>
+        <skills>
+            <tag>AngularJS</tag>
+            <tag>Typescript</tag>
+            <tag>Asp.Net WebApi</tag>
+            <tag>Telerik</tag>
+            <tag>AWS DynamoDB</tag>
+        </skills>    
+    </work-experience>
+    <work-experience>
+        <title>Responsabile informatico</title>
+        <company>Mollificio Bordignon</company>
+        <contract>Determinato/Indeterminato</contract>
+        <place>Rossano Veneto</place>
+        <period>Novembre 2016 - Maggio 2017</period>
+        <description><![CDATA[
+        <span>
+            In questa esperinza professionale, scaturita da un primo contatto come libero professionista mi sono occupato della gestione informatica dell'azienda. 
+            Il ruolo richiedeva di gestire un custom creato internamente per la gestione del flusso lavorativo delle molle da un reparto all'altro e la creazione di report personalizzati (QlickView), oltre alla gestione dei pc presenti a bordo linea adibiti alla fruizione del suddetto software.
+        </span>
+        ]]></description>
+        <skills>
+            <tag>Asp.Net Mvc</tag>
+        </skills>
+    </work-experience>
+    <work-experience>
+        <title>Sviluppatore software</title>
+        <company>2Easy</company>
+        <contract>Determinato</contract>
+        <place>Vicenza</place>
+        <period>Giugno 2017 - Settembre 2017</period>
+        <description><![CDATA[
+            <span>
+                Nell'esperienza in questa software house, che si occupava di 
+                Mi sono occupato dell’implementazione di un MES (manufacturing
+                execution system) distribuito via web e sviluppato tramite un
+                framework proprietario basato su jsview.
+            </span>
+        ]]></description>
+        <skills>
+            <tag>Javascript</tag>
+            <tag>JsView</tag>
+        </skills>    
+    </work-experience>
+    <work-experience>
+        <title>Sviluppatore software</title>
+        <company>BioImis</company>
+        <contract>Indeterminato</contract>
+        <place>Bassano del Grappa</place>
+        <period>Settembre 2017 - Aprile 2019</period>
+        <description><![CDATA[
+            <span>
+                Mi sono occupato della manutenzione e dello sviluppo delle nuove
+                funzionalità relative agli applicativi interni utilizzati dall’azienda
+                (l’azienda gestisce la dieta alimentare dei clienti). Tali applicazioni
+                consistevano in un servizio per le app dei clienti, due siti di backoffice e
+                alcuni servizi in background sui server.
+            </span>
+        ]]></description>
+        <skills>
+            <tag>Asp.Net MVC/WebApi</tag>
+            <tag>Asp.Net Core Mvc/WebApi</tag>
+            <tag>.Net Core</tag>
+            <tag>AWS EC2</tag>
+        </skills>    
+    </work-experience>
+</cv>

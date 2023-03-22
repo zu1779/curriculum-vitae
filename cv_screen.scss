@@ -1,0 +1,154 @@
+$page-bg-lightgray: #f8f8f8;
+
+// Bootstrap variable override
+$primary: #8dcaee;
+$secondary: #c6a2ff;
+$body-bg: #f0f0f0;
+$body-color: #606060;
+
+$font-size-root: 18px;
+$font-size-base: 1rem;
+
+// $enable-shadows: true;
+// $enable-gradients: true;
+
+
+@import "./scss/bootstrap.scss";
+
+html {
+
+  body {
+    font-family: Arial, sans-serif;
+
+    .page {
+      background-color: $page-bg-lightgray;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      margin: 30px auto;
+      padding: 30px;
+      width: 90%;
+      min-height: 500px;
+    }
+
+    .left-column {
+      background-color: $primary;
+      border-right: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 0.8em;
+
+      a {
+        color: white;
+      }
+
+      hr {
+        border: none;
+        border-top: 4px solid white;
+        opacity: 80%;
+        margin: 20px 0;
+        border-radius: 8px;
+      }
+
+      .profile-image {
+        width: 128px;
+        height: 128px;
+        border-radius: 20%;
+        margin: 8px;
+        display: block;
+      }
+
+      .main-title {
+        color: white;
+        margin: 0;
+      }
+
+      .personal-info {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        color: white;
+      }
+
+      .panel-info {
+        width: 94%;
+        border: 1px solid rgba(242, 242, 242, 0.4);
+        border-radius: 10px;
+        border-bottom-color: #d9d9d9;
+        padding: 20px;
+        box-shadow: none;
+        margin: 8px;
+
+        h3 {
+          font-size: 1.7em;
+        }
+      }
+
+      .badge {
+        background-color: $secondary;
+      }
+    }
+
+    .right-column {
+      padding-left: 30px;
+
+      h3 {
+        font-size: 1.4em;
+      }
+
+      hr {
+        border: none;
+        border-top: 4px solid $primary;
+        opacity: 80%;
+        margin: 20px 0;
+        border-radius: 2px;
+      }
+
+      .main-content {
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        padding: 30px;
+      }
+
+      .card {
+        margin: 8px;
+
+        .card-header {
+          color: white;
+          background-color: $secondary;
+        }
+      }
+
+      .work-description-header {
+        span {
+          font-weight: lighter;
+          font-size: smaller;
+          color: #606060;
+        }
+      }
+
+      #work-experience-content {
+        .work-reference {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-style: italic;
+          font-weight: lighter;
+          font-size: small;
+          color: #444;
+        }
+
+        .work-description {
+          span {
+            font-weight: lighter;
+            font-size: smaller;
+            color: #606060;
+
+            &.indented {
+              padding-left: 1.5em;
+              text-indent: -1.5em;
+            }
+          }
+        }
+
+        .badge {
+          background-color: $secondary;
+        }
+      }
+    }
+  }
+}
