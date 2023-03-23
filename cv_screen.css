@@ -9853,7 +9853,7 @@ html body .page .left-column .panel-info h3, html body .page .left-column .panel
 }
 html body .page .left-column .panel-info.about-me span, html body .page .left-column .panel-info.r-and-d span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 html body .page .left-column .badge {
   color: #c6a2ff;
@@ -9886,7 +9886,7 @@ html body .page .right-column .card .card-header {
 }
 html body .page .right-column .work-description-header span {
   font-weight: lighter;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: #606060;
 }
 html body .page .right-column #work-experience-content .work-reference {
